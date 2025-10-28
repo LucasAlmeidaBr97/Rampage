@@ -1,0 +1,47 @@
+
+
+/* Estilo para os inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+input:disabled {
+  background-color: #e9ecef;  /* Cor de fundo para inputs desabilitados */
+  cursor: not-allowed;        /* Cursor de não permitido */
+}
+
+/* Estilo para o título (h2) */
+h2 {
+  font-size: 1.5rem;
+  font-weight: normal;         /* Retirar o negrito */
+  color: #333;                 /* Cor escura para o título */
+  margin-bottom: 20px;
+}
+
+/* Estilo para o botão */
+.btn-register {
+  width: 100%;
+  padding: 10px;
+  background-color: #f3961c;  /* Cor de fundo azul */
+  color: #fff;                /* Cor da fonte branca */
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn-register:hover{
+    width: 100%;
+    padding: 10px;
+    background-color: #FF8C00;  /* Cor de fundo azul */
+    color: #333;                /* Cor da fonte branca */
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }

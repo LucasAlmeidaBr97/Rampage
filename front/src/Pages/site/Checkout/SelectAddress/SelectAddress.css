@@ -1,0 +1,31 @@
+p{
+    margin: 0;
+}
+
+.border-left{
+    border-left: #ddd 1px solid;
+}
+
+.main{
+    margin-top: 100px;
+}
+.btn-address {
+    width: 100%;
+    padding: 10px;
+    background-color: #f3961c;  /* Cor de fundo azul */
+    color: #fff;                /* Cor da fonte branca */
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .btn-address:hover{
+      width: 100%;
+      padding: 10px;
+      background-color: #FF8C00;  /* Cor de fundo azul */
+      color: #333;                /* Cor da fonte branca */
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }

@@ -1,0 +1,70 @@
+/* Estilo geral do formulário */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre os inputs */
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilo para os campos de entrada (input) */
+  .form-container input[type="text"],
+  .form-container input[type="date"],
+  .form-container input[type="email"],
+  .form-container input[type="password"],
+  .form-container input[type="number"] {
+    width: 100%; /* Faz com que o input ocupe toda a largura disponível */
+    padding: 12px; /* Preenchimento interno dos campos */
+    margin: 10px 0; /* Espaçamento vertical entre os campos */
+    border: 1px solid #ccc; /* Borda com cor suave */
+    border-radius: 6px; /* Bordas arredondadas */
+    font-size: 1rem; /* Tamanho da fonte */
+    background-color: #fff; /* Fundo branco para os campos */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transição suave ao focar */
+  }
+  
+  /* Estilo para os campos com foco */
+  .form-container input[type="text"]:focus,
+  .form-container input[type="date"]:focus,
+  .form-container input[type="email"]:focus,
+  .form-container input[type="password"]:focus,
+  .form-container input[type="number"]:focus {
+    border-color: #4CAF50; /* Cor da borda ao focar no campo */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Sombra verde suave */
+    outline: none; /* Remove o contorno padrão do navegador */
+  }
+  
+  /* Estilo para campos desabilitados */
+  .form-container input:disabled {
+    background-color: #f1f1f1; /* Cor de fundo mais clara */
+    cursor: not-allowed; /* Indicador de cursor que mostra que o campo não pode ser alterado */
+    border-color: #ddd; /* Borda mais suave para campos desabilitados */
+  }
+  
+  /* Estilo para os campos de texto como CPF, CEP, etc. */
+  .form-container input[type="text"][name="cpf"],
+  .form-container input[type="text"][name="cep"] {
+    width: 100%;
+    max-width: 200px; /* Limite de largura para CPF e CEP */
+  }
+  
+  /* Estilo para o botão de envio */
+  .form-container button {
+    padding: 12px;
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+  }
+  
+  .form-container button:hover {
+    background-color: #45a049; /* Cor do botão quando o mouse está sobre ele */
+  }
+  

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap");
+
+.barraNav {
+  max-height: 55px;
+  z-index: 2;
+  background: #f1f1f1;
+}
+.Pai_Nav {
+  position: fixed;
+  width: 100vw;
+  z-index: 3;
+}
+
+.contentNav {
+  height: 100px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+}
+.contentNavH {
+  height: 100px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+}
+
+.contentNav img {
+  background: transparent !important;
+}
+.LinksNav {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  font-family: "Itim";
+  font-size: 20px;
+  background-color: none;
+}
+.link:hover,
+.iconLogin {
+  color: #f5620e;
+}
+#iconLogin {
+  font-size: 40px;
+  color: #010101;
+}
+.iconLogin {
+  text-decoration: none;
+  color: #010101;
+}

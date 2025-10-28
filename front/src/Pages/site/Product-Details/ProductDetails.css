@@ -1,0 +1,59 @@
+
+.product {
+  margin-top: 110px;
+}
+
+.rating {
+  height: 40px;
+  font-size: 25px;
+  color: rgb(216, 184, 0);
+}
+
+.product-info .rating{
+  padding: 25px;
+  
+}
+.btn-product {
+  width: 100%;
+  padding: 10px;
+  background-color: #f3961c;  /* Cor de fundo azul */
+  color: #fff;                /* Cor da fonte branca */
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.btn-product:hover{
+    width: 100%;
+    padding: 10px;
+    background-color: #FF8C00;  /* Cor de fundo azul */
+    color: #333;                /* Cor da fonte branca */
+    border: #333;
+    
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  .btn-product-off {
+    width: 100%;
+    padding: 10px;
+    background-color: #BDBDBD;  /* Cor de fundo azul */
+    color: #fff;                /* Cor da fonte branca */
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+  .btn-product-off:hover{
+      width: 100%;
+      padding: 10px;
+      background-color: #6E6E6E;  /* Cor de fundo azul */
+      color: #333;                /* Cor da fonte branca */
+      border: #333;
+      
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 25px;
+    }

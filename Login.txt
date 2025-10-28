@@ -1,0 +1,33 @@
+login: Teste.Consumer@example.com
+senha: consumer123
+
+{
+  "name": "Teste Consumer",
+  "cpf": "12345678901",
+  "email": "Teste.Consumer@example.com",
+  "password": "consumer123",
+  "role": "CONSUMER"
+}
+
+login: Teste.Admin@example.com
+senha: admin123
+
+{
+  "name": "Teste Admin",
+  "cpf": "12345678901",
+  "email": "Teste.Admin@example.com",
+  "password": "admin123",
+  "role": "ADMIN"
+}
+
+login: Teste.Stokist@example.com
+senha: stokist123
+
+{
+  "name": "Teste Stokist",
+  "cpf": "12345678901",
+  "email": "Teste.Stokist@example.com",
+  "password": "stokist123",
+  "role": "STOKIST"
+}
+

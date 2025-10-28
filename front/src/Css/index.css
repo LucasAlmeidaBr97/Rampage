@@ -1,0 +1,60 @@
+:root{
+  --navbar-height: ;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+form{
+  width: 500px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+form input{
+  gap: 15px ;
+  margin-bottom: 5px;   
+}
+
+form input[type="button"]{
+  margin-right: 10px;
+}
+
+*{
+  border: red solid 0px;
+  margin: 5px;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.link-button {
+  background: none;
+  color: blue;
+  text-decoration: underline;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+}
+
